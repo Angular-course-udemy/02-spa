@@ -33,3 +33,7 @@ body{
 .fadeIn {
   animation-name: fadeIn;
 }
+
+.img-small{
+  max-width: 150px;
+}
