@@ -1,5 +1,5 @@
 # 02. SPA 🖥 (Single Page Application)
-Aplicación de muestra y búsqueda de superhéroes
+Aplicación de muestra y búsqueda de superhéroes usando:
 
 - Instalación de bootstrap cuando usamos Angular-CLI
 - Configuración de componentes
