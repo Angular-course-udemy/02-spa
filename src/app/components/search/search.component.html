@@ -11,3 +11,10 @@
     </div>
   </div>
 </div>
+<div class="row animated fadeIn fast" *ngIf="heroArr == 0"> 
+  <div class="col-md-12">
+    <div class="alert alert-info" role="alert">
+      <p>There are no results with de search: {{ searchWord }}</p>
+    </div>
+  </div>
+</div>
