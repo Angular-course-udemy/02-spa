@@ -55,9 +55,7 @@ export class HeroesService {
     }
   ];
   
-  constructor() {
-    console.log('Listo!')
-  }
+  constructor() {  }
 
   getHeroes():Heroe[] {
     return this.heroes;
