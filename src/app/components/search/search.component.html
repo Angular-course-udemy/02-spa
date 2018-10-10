@@ -1,5 +1,5 @@
 <h1>Searching for: <small>{{ searchWord }}</small></h1>
 <hr>
 <div class="card-columns">
-    <app-hero-card [heroe]="h" [index]="i" *ngFor="let h of heroArr; let i = index"></app-hero-card>
+    <app-hero-card (heroSelected)="showHero($event)" [heroe]="h" [index]="h.id" *ngFor="let h of heroArr"></app-hero-card>
 </div>
