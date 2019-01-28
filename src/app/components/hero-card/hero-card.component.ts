@@ -21,6 +21,7 @@ export class HeroCardComponent implements OnInit {
 
   showHero(){
     // this.router.navigate(['/hero', this.index])
+    console.log("Is emmited")
     this.heroSelected.emit(this.index)
   }
 

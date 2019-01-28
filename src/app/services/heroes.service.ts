@@ -58,10 +58,12 @@ export class HeroesService {
   constructor() {  }
 
   getHeroes():Heroe[] {
+    console.log(this.heroes)
     return this.heroes;
   }
-
+  
   getHero(id:string) {
+    console.log(this.heroes[id])
     return this.heroes[id];
   }
 
